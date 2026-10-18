@@ -1,0 +1,9 @@
+# Build output (xcodebuild -derivedDataPath build)
+build/
+DerivedData/
+
+# Personal Xcode state
+xcuserdata/
+*.xcuserstate
+
+.DS_Store
