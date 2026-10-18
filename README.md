@@ -32,3 +32,13 @@ walks around, picks things up and talks back. Everything runs on the phone.
   ([FluidAudio#889](https://github.com/FluidInference/FluidAudio/issues/889)).
 - In the simulator, Kokoro and Parakeet store their models in folders whose names differ
   only by case, which collide on a Mac's disk, so the voice falls back to Apple's speech synthesizer there.
+
+## License
+
+RobotRoom's code is under the [MIT License](LICENSE).
+
+It uses third-party software and models under their own licenses, listed in
+[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md):
+[FluidAudio](https://github.com/FluidInference/FluidAudio) (Apache 2.0),
+[Parakeet TDT 0.6B v3](https://huggingface.co/nvidia/parakeet-tdt-0.6b-v3) by NVIDIA (CC BY 4.0) and
+[Kokoro-82M](https://huggingface.co/hexgrad/Kokoro-82M) by hexgrad (Apache 2.0).
